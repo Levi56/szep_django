@@ -137,3 +137,7 @@ DATABASES['default'].update(db_from_env)
 
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+DEBUG = False
+
+ALLOWED_HOSTS = ['HEROKUREMOTE.herokuapp.com', '127.0.0.1']
